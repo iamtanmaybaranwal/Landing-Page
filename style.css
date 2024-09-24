@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    background-color: rgba(185, 34, 117, 0.781);
+    padding: 20px;
+    color: white;
+}
+
+.landing {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 35px;
+}
+
+.home {
+    float: right;
+    margin: 3px;
+    padding: 4px;
+    padding-right: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: rgb(177, 36, 18);
+    /* border-radius: 5px; */
+
+}
+
+.color {
+    color: white;
+}
+
+.geeks {
+    color: green;
+    padding: 49px;
+    margin: 0px;
+    margin-left: -1px;
+    font-size: 25px;
+    padding-bottom: 139px;
+}
+
+
+.go {
+    color: rgb(2, 2, 2);
+    font-weight: 700;
+}
+
+img {
+    float: right;
+    margin-right: 16px;
+    width: 462px;
+    padding: 15px;
+    border-bottom-width: 35px;
+    padding-bottom: 15px;
+}
+
+.button button {
+    border: 15px;
+    background-color: rgba(82, 209, 103, 0.692);
+    border-radius: 25px;
+    padding: 8px;
+    margin: 5px;
+
+}
+
+.course {
+    display: flex;
+    text-align: center;
+}
+
+.courses {
+    text-align: center;
+    font-size: 25px;
+    margin-top: -28px;
+    margin-bottom: -19px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.HTML {
+    border: 1px solid rgb(145, 143, 143);
+    margin-right: 339px;
+    text-align: center;
+    margin-left: 69px;
+    margin-top: 51px;
+    box-shadow: 4px 9px 4px #9c9898;
+    border-radius: 27px;
+}
+
+.CSS {
+    border: 1px solid rgb(145, 143, 143);
+    margin-right: -711px;
+    text-align: center;
+    margin-left: -196px;
+    margin-top: 52px;
+    box-shadow: 4px 9px 4px #9c9898;
+    border-radius: 27px;
+}
+
+
+.JS {
+    border: 1px solid rgb(145, 143, 143);
+    margin-right: 86px;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 50px;
+    box-shadow: 4px 9px 4px #9c9898;
+    border-radius: 27px;
+}
+
+.offices {
+    margin: 65px;
+    font-size: 25px;
+    font-weight: 1000;
+    margin-left: 655px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+
+.Contact {
+    font-size: 25px;
+    float: right;
+    margin-right: 920px;
+    font-weight: 600;
+    margin-top: -137px;
+}
+
+
+.address {
+    float: right;
+    margin-right: 704px;
+    font-size: 13px;
+    margin-top: -111px;
+}
+
+.other {
+    margin-left: 655px;
+    margin-top: -47px;
+    font-size: 13px;
+}
+
+                /* for responsive site */
+
+@media only screen and (max-width: 455px) {
+    /* body {
+        background-color: aqua;
+    } */
+
+    .course {
+        flex-direction: column;
+    }
+
+    .heading {
+        background-color: rgba(185, 34, 117, 0.781);
+        padding: 45px;
+        color: white;
+    }
+
+    .home {
+        float: right;
+        margin: 14px;
+        padding: 42px;
+        padding-right: 0vh;
+        margin: -42px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    img {
+        float: right;
+        margin-right: 46px;
+        width: 345px;
+        padding: 0px;
+        border-bottom-width: 2px;
+        padding-bottom: 66px;
+    }
+
+    .geeks {
+        color: green;
+        padding: 19px;
+        margin: -2px;
+        margin-left: -8px;
+        font-size: 25px;
+        padding-bottom: 137px;
+    }
+
+    .geeks {
+        color: green;
+        padding: 19px;
+        margin: -2px;
+        margin-left: -8px;
+        font-size: 25px;
+        padding-bottom: 137px;
+    }
+
+    .HTML {
+        border: 1px solid rgb(145, 143, 143);
+        margin-right: 77px;
+        text-align: center;
+        margin-left: 31px;
+        margin-top: 10px;
+        box-shadow: 4px 9px 4px #9c9898;
+        border-radius: 27px;
+    }
+
+    .CSS {
+        border: 1px solid rgb(145, 143, 143);
+        margin-right: 80px;
+        text-align: center;
+        margin-left: 29px;
+        margin-top: 52px;
+        box-shadow: 4px 9px 4px #9c9898;
+        border-radius: 31px;
+    }
+
+    .JS {
+        border: 1px solid rgb(145, 143, 143);
+        margin-right: 80px;
+        text-align: center;
+        margin-left: 31px;
+        margin-top: 48px;
+        box-shadow: 4px 9px 4px #9c9898;
+        border-radius: 27px;
+    }
+
+    .offices {
+        margin: 65px;
+        font-size: 25px;
+        font-weight: 1000;
+        margin-left: 42px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .other {
+        margin-left: 45px;
+        margin-top: -50px;
+        font-size: 13px;
+        margin-right: 74px;
+    }
+
+
+    .courses {
+        text-align: center;
+        font-size: 25px;
+        margin-top: -93px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+}
